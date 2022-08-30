@@ -17,7 +17,7 @@ public class GerenciadorTarefas {
                     op = scanner.nextInt();
                 } catch (Exception e) {
                     op = 100;
-                    System.out.println("Insira um valor v·lido!");
+                    System.out.println("Insira um valor v√°lido!");
                 }
                 scanner = new Scanner(System.in);
 
@@ -27,8 +27,8 @@ public class GerenciadorTarefas {
                     int i = 0;
                     for (String tar: lista) {
                     System.out.println(++i + " " + tar);
-                    break;
                     }
+                    break;
                     
                 case 2:
                     System.out.print("Insira a tarefa: \n");
@@ -41,7 +41,7 @@ public class GerenciadorTarefas {
                     try{
                         int del = scanner.nextInt() - 1;
                         if (del < 0 || del >= lista.size()){
-                            System.out.println("A tarefa selecionada n„o existe! \n");
+                            System.out.println("A tarefa selecionada n√£o existe! \n");
                         }else{
                             lista.remove(del);
                         }
