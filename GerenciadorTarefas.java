@@ -48,6 +48,7 @@ public class GerenciadorTarefas {
                     }catch (Exception e){
                         System.out.println("Valor invalido! \n");
                     }
+                    default -> op = 0;
             }
         }
     }
